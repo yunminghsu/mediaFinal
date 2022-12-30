@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "button.png",
+      "filename" : "crossButton.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
