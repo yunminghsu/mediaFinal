@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="line" placeholder="發送訊息" minimumFontSize="17" background="sendMessage" translatesAutoresizingMaskIntoConstraints="NO" id="DqE-zB-Ouy">
-                                <rect key="frame" x="36" y="764" width="223" height="58"/>
+                                <rect key="frame" x="36" y="759" width="223" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -68,18 +68,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="takePictureButton"/>
                             </button>
-                            <button opaque="NO" tag="-1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgh-1y-XbV">
-                                <rect key="frame" x="23" y="745" width="85" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="flash_on_FILL0_wght400_GRAD0_opsz48 1"/>
-                            </button>
-                            <button opaque="NO" tag="-1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6f-Cb-zfW">
-                                <rect key="frame" x="289" y="743" width="85" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="360_FILL0_wght400_GRAD0_opsz48 1"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9bw-kC-bVm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -112,6 +100,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="crossButton"/>
+                            </button>
+                            <button opaque="NO" tag="-1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgh-1y-XbV">
+                                <rect key="frame" x="20" y="745" width="85" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="flash_on_FILL0_wght400_GRAD0_opsz48 1"/>
+                            </button>
+                            <button opaque="NO" tag="-1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6f-Cb-zfW">
+                                <rect key="frame" x="286" y="743" width="85" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="360_FILL0_wght400_GRAD0_opsz48 1"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LS3-8Q-Poi"/>
